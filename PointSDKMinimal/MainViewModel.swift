@@ -10,7 +10,6 @@ import Foundation
 import BDPointSDK
 import UIKit
 
-@MainActor
 class MainViewModel: NSObject, ObservableObject {
 
     // Use a project Id acquired from the Canvas UI.
@@ -122,7 +121,7 @@ class MainViewModel: NSObject, ObservableObject {
             }
             
             print("Stop Tempo successfully")
-            self.isTempoRunning = true
+            self.isTempoRunning = false
         }
     }
         
