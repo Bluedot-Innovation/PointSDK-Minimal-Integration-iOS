@@ -1,0 +1,15 @@
+{
+  "originHash" : "a020e5a562f4ee4285d56bd3a40da02fca4baf656c62d77682e43751ce396914",
+  "pins" : [
+    {
+      "identity" : "pointsdk-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Bluedot-Innovation/PointSDK-iOS",
+      "state" : {
+        "revision" : "5c23cae38f1bb0b110c1290cd7e45924b2aab10c",
+        "version" : "17.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}
