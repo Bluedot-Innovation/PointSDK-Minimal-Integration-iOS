@@ -7,9 +7,9 @@
 //
 
 import Foundation
-import BDPointSDK
+@preconcurrency import BDPointSDK
 
-extension MainViewModel: BDPBluedotServiceDelegate {
+extension MainViewModel: @preconcurrency BDPBluedotServiceDelegate {
     
     //MARK: Called when Device's low power mode status changed
     func lowPowerModeDidChange(_ isLowPowerMode: Bool) {

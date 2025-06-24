@@ -10,6 +10,7 @@ import Foundation
 import BDPointSDK
 import UIKit
 
+@MainActor
 class MainViewModel: NSObject, ObservableObject {
 
     // Use a project Id acquired from the Canvas UI.
