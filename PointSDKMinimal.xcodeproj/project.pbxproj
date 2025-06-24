@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E12601452DFBB47D000C433B /* BDPointSDK in Frameworks */ = {isa = PBXBuildFile; productRef = E12601442DFBB47D000C433B /* BDPointSDK */; };
+		E12601472DFBB6C3000C433B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12601462DFBB6C3000C433B /* AppDelegate.swift */; };
+		E12601492DFBB770000C433B /* MainViewModel+BDPGeoTriggeringEventDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12601482DFBB770000C433B /* MainViewModel+BDPGeoTriggeringEventDelegate.swift */; };
+		E12601662E03ECEB000C433B /* MainViewModel+BDPTempoTrackingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12601652E03ECEB000C433B /* MainViewModel+BDPTempoTrackingDelegate.swift */; };
+		E12601682E03ED22000C433B /* MainViewModel+BDPBluedotServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12601672E03ED22000C433B /* MainViewModel+BDPBluedotServiceDelegate.swift */; };
+		E12601762E03F22F000C433B /* ChatAIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E126016E2E03F22F000C433B /* ChatAIViewModel.swift */; };
+		E12601772E03F22F000C433B /* ChatAIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12601742E03F22F000C433B /* ChatAIViewController.swift */; };
+		E12601782E03F22F000C433B /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E126016C2E03F22F000C433B /* ChatMessage.swift */; };
+		E12601792E03F22F000C433B /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E126016A2E03F22F000C433B /* String+Extension.swift */; };
+		E126017A2E03F22F000C433B /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12601722E03F22F000C433B /* FeedbackView.swift */; };
+		E126017B2E03F22F000C433B /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12601692E03F22F000C433B /* Color+Extension.swift */; };
+		E126017C2E03F22F000C433B /* ChatAIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12601702E03F22F000C433B /* ChatAIView.swift */; };
+		E126017D2E03F22F000C433B /* ChatBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12601712E03F22F000C433B /* ChatBubbleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E12600F42DFA67A6000C433B /* PointSDKMinimal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PointSDKMinimal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E12601462DFBB6C3000C433B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E12601482DFBB770000C433B /* MainViewModel+BDPGeoTriggeringEventDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewModel+BDPGeoTriggeringEventDelegate.swift"; sourceTree = "<group>"; };
+		E12601652E03ECEB000C433B /* MainViewModel+BDPTempoTrackingDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewModel+BDPTempoTrackingDelegate.swift"; sourceTree = "<group>"; };
+		E12601672E03ED22000C433B /* MainViewModel+BDPBluedotServiceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewModel+BDPBluedotServiceDelegate.swift"; sourceTree = "<group>"; };
+		E12601692E03F22F000C433B /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		E126016A2E03F22F000C433B /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		E126016C2E03F22F000C433B /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		E126016E2E03F22F000C433B /* ChatAIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAIViewModel.swift; sourceTree = "<group>"; };
+		E12601702E03F22F000C433B /* ChatAIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAIView.swift; sourceTree = "<group>"; };
+		E12601712E03F22F000C433B /* ChatBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubbleView.swift; sourceTree = "<group>"; };
+		E12601722E03F22F000C433B /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
+		E12601742E03F22F000C433B /* ChatAIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAIViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E12601622E03DE6A000C433B /* Exceptions for "PointSDKMinimal" folder in "PointSDKMinimal" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E12600F32DFA67A6000C433B /* PointSDKMinimal */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E12600F62DFA67A6000C433B /* PointSDKMinimal */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E12601622E03DE6A000C433B /* Exceptions for "PointSDKMinimal" folder in "PointSDKMinimal" target */,
+			);
+			path = PointSDKMinimal;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E12600F12DFA67A6000C433B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12601452DFBB47D000C433B /* BDPointSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E12600EB2DFA67A6000C433B = {
+			isa = PBXGroup;
+			children = (
+				E12601752E03F22F000C433B /* ChatAI */,
+				E12601462DFBB6C3000C433B /* AppDelegate.swift */,
+				E12601482DFBB770000C433B /* MainViewModel+BDPGeoTriggeringEventDelegate.swift */,
+				E12601652E03ECEB000C433B /* MainViewModel+BDPTempoTrackingDelegate.swift */,
+				E12601672E03ED22000C433B /* MainViewModel+BDPBluedotServiceDelegate.swift */,
+				E12600F62DFA67A6000C433B /* PointSDKMinimal */,
+				E12600F52DFA67A6000C433B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E12600F52DFA67A6000C433B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E12600F42DFA67A6000C433B /* PointSDKMinimal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E126016B2E03F22F000C433B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E12601692E03F22F000C433B /* Color+Extension.swift */,
+				E126016A2E03F22F000C433B /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E126016D2E03F22F000C433B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E126016C2E03F22F000C433B /* ChatMessage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E126016F2E03F22F000C433B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E126016E2E03F22F000C433B /* ChatAIViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E12601732E03F22F000C433B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E12601702E03F22F000C433B /* ChatAIView.swift */,
+				E12601712E03F22F000C433B /* ChatBubbleView.swift */,
+				E12601722E03F22F000C433B /* FeedbackView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E12601752E03F22F000C433B /* ChatAI */ = {
+			isa = PBXGroup;
+			children = (
+				E126016B2E03F22F000C433B /* Extensions */,
+				E126016D2E03F22F000C433B /* Models */,
+				E126016F2E03F22F000C433B /* ViewModels */,
+				E12601732E03F22F000C433B /* Views */,
+				E12601742E03F22F000C433B /* ChatAIViewController.swift */,
+			);
+			path = ChatAI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E12600F32DFA67A6000C433B /* PointSDKMinimal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E12601022DFA67A7000C433B /* Build configuration list for PBXNativeTarget "PointSDKMinimal" */;
+			buildPhases = (
+				E12600F02DFA67A6000C433B /* Sources */,
+				E12600F12DFA67A6000C433B /* Frameworks */,
+				E12600F22DFA67A6000C433B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E12600F62DFA67A6000C433B /* PointSDKMinimal */,
+			);
+			name = PointSDKMinimal;
+			packageProductDependencies = (
+				E12601442DFBB47D000C433B /* BDPointSDK */,
+			);
+			productName = PointSDKMinimal;
+			productReference = E12600F42DFA67A6000C433B /* PointSDKMinimal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E12600EC2DFA67A6000C433B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					E12600F32DFA67A6000C433B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = E12600EF2DFA67A6000C433B /* Build configuration list for PBXProject "PointSDKMinimal" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E12600EB2DFA67A6000C433B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E12601432DFBB47D000C433B /* XCRemoteSwiftPackageReference "PointSDK-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E12600F52DFA67A6000C433B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E12600F32DFA67A6000C433B /* PointSDKMinimal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E12600F22DFA67A6000C433B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E12600F02DFA67A6000C433B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12601682E03ED22000C433B /* MainViewModel+BDPBluedotServiceDelegate.swift in Sources */,
+				E12601472DFBB6C3000C433B /* AppDelegate.swift in Sources */,
+				E12601492DFBB770000C433B /* MainViewModel+BDPGeoTriggeringEventDelegate.swift in Sources */,
+				E12601662E03ECEB000C433B /* MainViewModel+BDPTempoTrackingDelegate.swift in Sources */,
+				E12601762E03F22F000C433B /* ChatAIViewModel.swift in Sources */,
+				E12601772E03F22F000C433B /* ChatAIViewController.swift in Sources */,
+				E12601782E03F22F000C433B /* ChatMessage.swift in Sources */,
+				E12601792E03F22F000C433B /* String+Extension.swift in Sources */,
+				E126017A2E03F22F000C433B /* FeedbackView.swift in Sources */,
+				E126017B2E03F22F000C433B /* Color+Extension.swift in Sources */,
+				E126017C2E03F22F000C433B /* ChatAIView.swift in Sources */,
+				E126017D2E03F22F000C433B /* ChatBubbleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E12601002DFA67A7000C433B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		E12601012DFA67A7000C433B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E12601032DFA67A7000C433B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PointSDKMinimal/Preview Content\"";
+				DEVELOPMENT_TEAM = 9H7C75E224;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PointSDKMinimal/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need access to location in background to be able to trigger notifications when you arrive at a location. Your location is used to trigger the geofences that you added on the Bluedot UI.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need access to location in background to be able to trigger notifications when you arrive at a location. Your location is used to trigger the geofences that you added on the Bluedot UI, even when the app is in the background.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need access to location in background to be able to trigger notifications when you arrive at a location. Your location is used to trigger the geofences that you added on the Bluedot UI.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.bluedot.minIntegrationAppSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E12601042DFA67A7000C433B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PointSDKMinimal/Preview Content\"";
+				DEVELOPMENT_TEAM = 9H7C75E224;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PointSDKMinimal/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need access to location in background to be able to trigger notifications when you arrive at a location. Your location is used to trigger the geofences that you added on the Bluedot UI.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need access to location in background to be able to trigger notifications when you arrive at a location. Your location is used to trigger the geofences that you added on the Bluedot UI, even when the app is in the background.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need access to location in background to be able to trigger notifications when you arrive at a location. Your location is used to trigger the geofences that you added on the Bluedot UI.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.bluedot.minIntegrationAppSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E12600EF2DFA67A6000C433B /* Build configuration list for PBXProject "PointSDKMinimal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12601002DFA67A7000C433B /* Debug */,
+				E12601012DFA67A7000C433B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E12601022DFA67A7000C433B /* Build configuration list for PBXNativeTarget "PointSDKMinimal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12601032DFA67A7000C433B /* Debug */,
+				E12601042DFA67A7000C433B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E12601432DFBB47D000C433B /* XCRemoteSwiftPackageReference "PointSDK-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Bluedot-Innovation/PointSDK-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 17.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E12601442DFBB47D000C433B /* BDPointSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E12601432DFBB47D000C433B /* XCRemoteSwiftPackageReference "PointSDK-iOS" */;
+			productName = BDPointSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E12600EC2DFA67A6000C433B /* Project object */;
+}
