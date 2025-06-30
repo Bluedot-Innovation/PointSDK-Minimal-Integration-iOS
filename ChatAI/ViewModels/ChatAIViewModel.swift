@@ -103,30 +103,23 @@ class ChatAIViewModel : ObservableObject {
                     messages[messages.count - 1].imageTitle = title
                 }
             }
-            break
         case 2: // RESPONSE_TEXT
             if let responseText = responseDto.response,
                let message = getMessageWithID(messageID) {
                 message.text += responseText
             }
-            break
         case 3: // RESPONSE_IDENTIFIER
             if let responseID = responseDto.responseID,
                 let message = getMessageWithID(messageID) {
                 message.responseID = responseID
             }
-            break
         default:
             break
         }
     }
     
     private func getMessageWithID(_ messageID: UUID) ->  ChatMessage? {
-        if let message = messages.first(where: {$0.id == messageID}) {
-           return message
-        } else {
-           return nil
-        }
+        return messages.first(where: { $0.id == messageID })
     }
     
     private func getMessageWithResponseID(_ responseID: String) ->  ChatMessage? {

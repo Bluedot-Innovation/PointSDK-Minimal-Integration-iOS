@@ -9,6 +9,17 @@
 import SwiftUICore
 
 extension Color {
-    static let chatAIBackground =  Color(red: 242/255, green:242/255, blue: 247/255)
-    static let chatAIAnswersBackground = Color(red: 229/255, green: 230/255, blue: 235/255)
+    
+    private static func rgb(_ red: Int, _ green: Int, _ blue: Int) -> Color {
+        Color(
+            .sRGB,
+            red: Double(red) / 255.0,
+            green: Double(green) / 255.0,
+            blue: Double(blue) / 255.0,
+            opacity: 1.0
+        )
+    }
+    
+    static let chatAIBackground = Color.rgb(242, 242, 247)
+    static let chatAIAnswersBackground = Color.rgb(229, 230, 235)
 }
