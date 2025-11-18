@@ -453,7 +453,7 @@
 			repositoryURL = "https://github.com/Bluedot-Innovation/PointSDK-iOS";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 17.0.3;
+				minimumVersion = 17.1.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
