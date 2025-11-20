@@ -6,7 +6,7 @@
 //  Copyright © 2025 Bluedot Innovation. All rights reserved.
 //
 
-import SwiftUICore
+import SwiftUI
 
 extension Color {
     

@@ -14,11 +14,16 @@ extension MainViewModel: BDPGeoTriggeringEventDelegate {
     //MARK: Called whenever new BDZoneInfo is received from Canvas
     func didUpdateZoneInfo() {
         print("Zone information is updated")
+        if let zones = BDLocationManager.instance().zoneInfos {
+            for zone in zones {
+                print("Zone Name: \(zone.name)")
+            }
+        }
     }
 
     //MARK: Entered into a zone
     func didEnterZone(_ event: GeoTriggerEvent) {
-        print("You have checked into a zone")
+        print("You have checked into a zone \(event.zoneInfo.name)")
 
         var formattedcheckInDate = ""
 
@@ -35,7 +40,7 @@ extension MainViewModel: BDPGeoTriggeringEventDelegate {
 
     //MARK: Exit a Zone
     func didExitZone(_ event: GeoTriggerEvent) {
-        print("checked out from a zone")
+        print("checked out from a zone \(event.zoneInfo.name)")
 
         let message = "You have left fence '\(event.exitEvent?.fenceName ?? "")' in zone '\(event.zoneInfo.name)', after \(event.exitEvent!.dwellTime/1000/60) minutes"
         notifyUser(title: "Application notification", message: message)
