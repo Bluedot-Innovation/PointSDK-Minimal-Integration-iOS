@@ -12,14 +12,6 @@
 		E12601492DFBB770000C433B /* MainViewModel+BDPGeoTriggeringEventDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12601482DFBB770000C433B /* MainViewModel+BDPGeoTriggeringEventDelegate.swift */; };
 		E12601662E03ECEB000C433B /* MainViewModel+BDPTempoTrackingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12601652E03ECEB000C433B /* MainViewModel+BDPTempoTrackingDelegate.swift */; };
 		E12601682E03ED22000C433B /* MainViewModel+BDPBluedotServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12601672E03ED22000C433B /* MainViewModel+BDPBluedotServiceDelegate.swift */; };
-		E12601762E03F22F000C433B /* ChatAIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E126016E2E03F22F000C433B /* ChatAIViewModel.swift */; };
-		E12601772E03F22F000C433B /* ChatAIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12601742E03F22F000C433B /* ChatAIViewController.swift */; };
-		E12601782E03F22F000C433B /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E126016C2E03F22F000C433B /* ChatMessage.swift */; };
-		E12601792E03F22F000C433B /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E126016A2E03F22F000C433B /* String+Extension.swift */; };
-		E126017A2E03F22F000C433B /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12601722E03F22F000C433B /* FeedbackView.swift */; };
-		E126017B2E03F22F000C433B /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12601692E03F22F000C433B /* Color+Extension.swift */; };
-		E126017C2E03F22F000C433B /* ChatAIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12601702E03F22F000C433B /* ChatAIView.swift */; };
-		E126017D2E03F22F000C433B /* ChatBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12601712E03F22F000C433B /* ChatBubbleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,14 +20,6 @@
 		E12601482DFBB770000C433B /* MainViewModel+BDPGeoTriggeringEventDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewModel+BDPGeoTriggeringEventDelegate.swift"; sourceTree = "<group>"; };
 		E12601652E03ECEB000C433B /* MainViewModel+BDPTempoTrackingDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewModel+BDPTempoTrackingDelegate.swift"; sourceTree = "<group>"; };
 		E12601672E03ED22000C433B /* MainViewModel+BDPBluedotServiceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewModel+BDPBluedotServiceDelegate.swift"; sourceTree = "<group>"; };
-		E12601692E03F22F000C433B /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
-		E126016A2E03F22F000C433B /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
-		E126016C2E03F22F000C433B /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
-		E126016E2E03F22F000C433B /* ChatAIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAIViewModel.swift; sourceTree = "<group>"; };
-		E12601702E03F22F000C433B /* ChatAIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAIView.swift; sourceTree = "<group>"; };
-		E12601712E03F22F000C433B /* ChatBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubbleView.swift; sourceTree = "<group>"; };
-		E12601722E03F22F000C433B /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
-		E12601742E03F22F000C433B /* ChatAIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -74,7 +58,6 @@
 		E12600EB2DFA67A6000C433B = {
 			isa = PBXGroup;
 			children = (
-				E12601752E03F22F000C433B /* ChatAI */,
 				E12601462DFBB6C3000C433B /* AppDelegate.swift */,
 				E12601482DFBB770000C433B /* MainViewModel+BDPGeoTriggeringEventDelegate.swift */,
 				E12601652E03ECEB000C433B /* MainViewModel+BDPTempoTrackingDelegate.swift */,
@@ -90,53 +73,6 @@
 				E12600F42DFA67A6000C433B /* PointSDKMinimal.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E126016B2E03F22F000C433B /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				E12601692E03F22F000C433B /* Color+Extension.swift */,
-				E126016A2E03F22F000C433B /* String+Extension.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		E126016D2E03F22F000C433B /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				E126016C2E03F22F000C433B /* ChatMessage.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		E126016F2E03F22F000C433B /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				E126016E2E03F22F000C433B /* ChatAIViewModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		E12601732E03F22F000C433B /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				E12601702E03F22F000C433B /* ChatAIView.swift */,
-				E12601712E03F22F000C433B /* ChatBubbleView.swift */,
-				E12601722E03F22F000C433B /* FeedbackView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		E12601752E03F22F000C433B /* ChatAI */ = {
-			isa = PBXGroup;
-			children = (
-				E126016B2E03F22F000C433B /* Extensions */,
-				E126016D2E03F22F000C433B /* Models */,
-				E126016F2E03F22F000C433B /* ViewModels */,
-				E12601732E03F22F000C433B /* Views */,
-				E12601742E03F22F000C433B /* ChatAIViewController.swift */,
-			);
-			path = ChatAI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,14 +157,6 @@
 				E12601472DFBB6C3000C433B /* AppDelegate.swift in Sources */,
 				E12601492DFBB770000C433B /* MainViewModel+BDPGeoTriggeringEventDelegate.swift in Sources */,
 				E12601662E03ECEB000C433B /* MainViewModel+BDPTempoTrackingDelegate.swift in Sources */,
-				E12601762E03F22F000C433B /* ChatAIViewModel.swift in Sources */,
-				E12601772E03F22F000C433B /* ChatAIViewController.swift in Sources */,
-				E12601782E03F22F000C433B /* ChatMessage.swift in Sources */,
-				E12601792E03F22F000C433B /* String+Extension.swift in Sources */,
-				E126017A2E03F22F000C433B /* FeedbackView.swift in Sources */,
-				E126017B2E03F22F000C433B /* Color+Extension.swift in Sources */,
-				E126017C2E03F22F000C433B /* ChatAIView.swift in Sources */,
-				E126017D2E03F22F000C433B /* ChatBubbleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,7 +381,7 @@
 			repositoryURL = "https://github.com/Bluedot-Innovation/PointSDK-iOS";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 17.1.0;
+				minimumVersion = 18.1.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
