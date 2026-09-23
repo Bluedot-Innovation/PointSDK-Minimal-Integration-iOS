@@ -11,7 +11,6 @@ import SwiftUI
 struct MainView: View {
     
     @StateObject private var viewModel = MainViewModel()
-    @State var navigateToChatAI = false
     
     var body: some View {
         NavigationStack {
@@ -121,30 +120,6 @@ struct MainView: View {
                     .listRowBackground(Color.white)
                     .listRowInsets(EdgeInsets())
                 }
-                
-                Section {
-                    HStack(spacing: 12) {
-                        Button {
-                            if viewModel.isSDKInitialized {
-                                navigateToChatAI = true
-                            } else {
-                                viewModel.showAlert(title: "Please initialize SDK")
-                            }
-                        } label: {
-                            HStack(alignment: .center) {
-                                Image(systemName: "message.fill")
-                                    .frame(width: 24, height: 24)
-                                    .aspectRatio(contentMode: .fit)
-                                    .foregroundColor(.blue)
-
-                                Text("Chat AI")
-                            }
-                        }
-                    }
-                    .padding()
-                }
-                .listRowBackground(Color.white)
-                .listRowInsets(EdgeInsets())
             }
             .formStyle(.grouped)
             .navigationTitle("iOS Point SDK")
@@ -167,9 +142,6 @@ struct MainView: View {
             }
             message: {
                 Text(viewModel.alertMessage)
-            }
-            .navigationDestination(isPresented: $navigateToChatAI) {
-                ChatAIView()
             }
         }
     }
