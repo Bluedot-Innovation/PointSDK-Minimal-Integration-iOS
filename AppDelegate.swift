@@ -56,7 +56,7 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
     func userNotificationCenter(_ center: UNUserNotificationCenter,
                                 willPresent notification: UNNotification) async -> UNNotificationPresentationOptions {
         let handled = BDLocationManager.instance()?.pushNotifications.handleForeground(notification) ?? false
-        return handled ? [.banner, .sound] : []
+        return handled ? [.banner, .sound, .badge] : []
     }
 
     func userNotificationCenter(_ center: UNUserNotificationCenter,

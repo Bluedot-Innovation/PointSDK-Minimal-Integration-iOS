@@ -13,7 +13,7 @@ import UIKit
 class MainViewModel: NSObject, ObservableObject {
 
     // Use a project Id acquired from the Canvas UI.
-    var projectId = "d8267470-24ea-435e-86ad-08fd39b7fb4d" // Canvas > Projects > Project ID
+    var projectId = "YourProjectId" // Canvas > Projects > Project ID
     
     // Use a Tempo Destination Id from the Canvas UI.
     var tempoDestinationId = "YourTempoDestinationId" // Canvas > Stores > Store Information > Destination ID
